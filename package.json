@@ -1,7 +1,9 @@
 {
   "name": "opensbp-language-support",
   "displayName": "OpenSBP",
+  "publisher": "CamelCityCalamity",
   "description": "Support for the OpenSBP language",
+  "icon": "icon.png",
   "version": "0.0.1",
   "repository": {
     "type": "git",
