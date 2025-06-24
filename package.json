@@ -1,0 +1,38 @@
+{
+  "name": "opensbp-language-support",
+  "displayName": "OpenSBP",
+  "description": "Support for the OpenSBP language",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/camelcitycalamity/opensbp-language-support.git"
+  },
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "opensbp",
+        "aliases": [
+          "OpenSBP",
+          "opensbp"
+        ],
+        "extensions": [
+          ".sbp"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "opensbp",
+        "scopeName": "source.opensbp",
+        "path": "./syntaxes/opensbp.tmLanguage.json"
+      }
+    ]
+  }
+}
